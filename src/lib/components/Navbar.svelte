@@ -1,13 +1,13 @@
 <script>
 </script>
 
-<div class="navbar">
+<div class="navbar card rounded-none mb-6 bg-primary">
   <ul class="flex flex-wrap p-2 gap-2">
     <li class=" hover:bg-slate-300 p-2 rounded-xl">
       <a href="/" class="">Home</a>
     </li>
     <li class=" hover:bg-slate-300 p-2 rounded-xl">
-      <a href="/gematria_decodes" class="">Gematria</a>
+      <a href="/gematria_decodes" class="">My Gematria</a>
     </li>
     <li class=" hover:bg-slate-300 p-2 rounded-xl">
       <a target="_blank" href="https://qagg.news/" class="">QAAG.news</a>

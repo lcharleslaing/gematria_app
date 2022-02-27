@@ -72,7 +72,7 @@
     document.getElementById("sum2Id").innerHTML = sum2;
 
     // insert sum into id of sumId element
-    document.getElementById("2-step-phrase").innerHTML = simple_one_step_string;
+    // document.getElementById("2-step-phrase").innerHTML = simple_one_step_string;
 
     phrase = "";
   };
@@ -119,6 +119,9 @@
       class="card shadow-md m-auto p-3 rounded-xl text-3xl bg-accent text-white"
       id="sum2Id">2 Step</a
     >
+    <div class="card m-2 my-6 p-2 bg-transparent text-slate-500">
+      Click on the 1-Step or the 2-Step button to go directly to that Q-Drop.
+    </div>
   </div>
   <div class="text-center my-4 text-xl italic" id="2-step-phrase" />
 </div>
