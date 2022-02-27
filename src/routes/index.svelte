@@ -2,7 +2,7 @@
 </script>
 
 <div class="bg-image">
-  <div class="container flex flex-wrap justify-evenly gap-6">
+  <div class="flex flex-wrap justify-around gap-6">
     <div class="card rounded-2xl bg-primary p-6 text-2xl">
       <a href="/gematria_decodes">MY Gematria</a>
     </div>
@@ -21,7 +21,7 @@
   </div>
 
   <div
-    class="card rounded-3xl bg-slate-300 contact text-center m-12 flex flex-wrap justify-around shadow-lg"
+    class="card rounded-3xl bg-slate-300 contact text-center mt-12 flex flex-wrap justify-around shadow-lg w-96 m-auto"
   >
     <div class="title text-slate-900">
       <p class="text-justify p-6">
