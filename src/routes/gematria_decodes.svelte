@@ -1,6 +1,4 @@
 <script context="module">
-  import supabase from "$lib/db";
-
   // Phrase entered in from input
   let phrase = "";
   // Load function
