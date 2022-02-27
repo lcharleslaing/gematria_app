@@ -1,19 +1,14 @@
 <script context="module">
-  // Phrase entered in from input
   let phrase = "";
-  // Load function
-  export async function load() {
-    // get data from supabase table
-    let { data, error } = await supabase.from("Gematria").select("*");
-    // if there is an error
-    if (error) {
-      return { error };
-    }
-    // if there is no error
-    return {
-      props: { data },
-    };
-  }
+  // export async function load() {
+  //   let { data, error } = await supabase.from("Gematria").select("*");
+  //   if (error) {
+  //     return { error };
+  //   }
+  //   return {
+  //     props: { data },
+  //   };
+  // }
 </script>
 
 <script>
