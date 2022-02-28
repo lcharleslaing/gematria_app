@@ -2,7 +2,7 @@
   "name": "sveltekitbaseauthsupabasetailwind-02242022",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --port 3100",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview"

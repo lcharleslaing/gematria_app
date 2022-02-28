@@ -41,9 +41,9 @@
       if (index !== -1) {
         simple_one_step.push(simple[index].text);
       }
-      if (letter === " ") {
-        simple_one_step.push("zero");
-      }
+      // if (letter === " ") {
+      //   simple_one_step.push("zero");
+      // }
     }
     let simple_one_step_string = simple_one_step.join(" ");
 
